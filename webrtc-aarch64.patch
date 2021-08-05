@@ -1,0 +1,14 @@
+diff --git a/src/typedefs.h b/src/typedefs.h
+index e4a0ba2..4f9178b 100644
+--- a/src/typedefs.h
++++ b/src/typedefs.h
+@@ -82,6 +82,9 @@
+ #elif defined(__powerpc__)
+ #define WEBRTC_BIG_ENDIAN
+ #define WEBRTC_ARCH_32_BITS
++#elif defined(__aarch64__)
++#define WEBRTC_LITTLE_ENDIAN
++#define WEBRTC_ARCH_64_BITS
+ #else
+ #error Please add support for your architecture in typedefs.h
+ #endif
