@@ -50,7 +50,7 @@ components have been optimized to best serve this purpose.
 WebRTC implements the W3C's proposal for video conferencing on the web.
 
 %prep
-%autosetup -n webrtc-audio-processing -p1
+%autosetup -n webrtc-audio-processing-v%{version} -p1
 
 %build
 autoreconf -fi
