@@ -1,5 +1,6 @@
 %define oname webrtc
 %define major 0
+%define minor 1
 %define libname %mklibname %{oname} %{major}
 %define develname %mklibname %{oname} -d %{major}
 
@@ -68,8 +69,8 @@ export CXX=g++
 find %{buildroot} -name '*.la' -delete
 
 %files -n %{libname}
-#{_libdir}/libwebrtc_audio_processing.so.%{major}
-#{_libdir}/libwebrtc_audio_processing.so.%{major}.*
+#{_libdir}/libwebrtc_audio_processing.so.%{minor}
+#{_libdir}/libwebrtc_audio_processing.so.%{minor}.*
 
 %files -n %{develname}
 %doc AUTHORS COPYING NEWS README
