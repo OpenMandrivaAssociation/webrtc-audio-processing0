@@ -68,8 +68,8 @@ export CXX=g++
 find %{buildroot} -name '*.la' -delete
 
 %files -n %{libname}
-%{_libdir}/libwebrtc_audio_processing.so.%{major}
-%{_libdir}/libwebrtc_audio_processing.so.%{major}.*
+#{_libdir}/libwebrtc_audio_processing.so.%{major}
+#{_libdir}/libwebrtc_audio_processing.so.%{major}.*
 
 %files -n %{develname}
 %doc AUTHORS COPYING NEWS README
