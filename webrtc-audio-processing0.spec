@@ -12,7 +12,7 @@ Release:        3
 Summary:	Real-Time Communication Library for Web Browsers
 License:	BSD-3-Clause
 Group:		System/Libraries
-Url:		http://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Url:		https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
 Source0:	https://gitlab.freedesktop.org/pulseaudio/webrtc-audio-processing/-/archive/v%{version}/webrtc-audio-processing-v%{version}.tar.bz2
 Patch0:		webrtc-fix-typedefs-on-other-arches.patch
 # bz#1336466, https://bugs.freedesktop.org/show_bug.cgi?id=95738
