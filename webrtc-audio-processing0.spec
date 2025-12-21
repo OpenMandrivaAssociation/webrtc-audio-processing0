@@ -18,6 +18,11 @@ Patch0:		webrtc-fix-typedefs-on-other-arches.patch
 # bz#1336466, https://bugs.freedesktop.org/show_bug.cgi?id=95738
 Patch4:		webrtc-audio-processing-0.2-big-endian.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Old version of WebRTC. This is an open source project that enables web browsers with Real-Time
 Communications (RTC) capabilities via simple Javascript APIs. The WebRTC
